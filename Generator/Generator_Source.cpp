@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 using std::cout;
@@ -11,7 +11,7 @@ int arr[n];
 void main() 
 {
 	setlocale(LC_ALL, "");
-	cout << "Ñãåíåðèðîâàííûå ÷èñëà \"5 èç 36\"" << endl << endl;
+	cout << "Ð¡Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð° \"5 Ð¸Ð· 36\"" << endl << endl;
 	GenFn(arr, n);
 	Print(arr, n);
 }
